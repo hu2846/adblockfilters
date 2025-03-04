@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250304002522
-! Last modified: 2025/03/04 00:25:22
-! Blocked Filters: 96111
+! Version: 20250304093803
+! Last modified: 2025/03/04 09:38:03
+! Blocked Filters: 96121
 !
 ###AC_ad
 ###AD_160
@@ -28907,6 +28907,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||glavred.info^$stealth
 @@||gledaitv.live^$generichide
 @@||gledajcrtace.xyz^$generichide
+@@||gloacmug.net^|$xmlhttprequest,domain=ipalibrary.me
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||global.apis.naver.com/commentBox/cbox/web_neo_list_jsonp.json$stealth
 @@||global.apis.naver.com/weverse/$stealth,domain=weverse.io
@@ -30049,6 +30050,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||imgadult.com/themes/$domain=imgadult.com
 @@||imgadult.com/upload/$domain=imgadult.com
 @@||imgdrive.net/anex/alt2.js
+@@||imgs-2.2xstorage.com$image,stealth=referrer
+@@||imgs-2.virus2hub.com^$image,stealth=referrer
 @@||imgtaxi.com/img-*.html
 @@||imgtmo.com^$stealth=referrer
 @@||imgtn.bdimg.com^$stealth
@@ -30914,7 +30917,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||matomo.moeci.com/matomo.js$domain=moeci.com
 @@||matrix.redditspace.com^$stealth=3p-auth
 @@||matystudios.github.io/banner_ad.png$domain=serialyzdarma.eu
-@@||matzoo.pl/*/adsbygoogle.js
+@@||matzoo.pl^$generichide
 @@||mawsueaa.com^$generichide
 @@||max.com^$generichide
 @@||maxcdn.bootstrapcdn.com/bootstrap/$domain=gelbooru.com
@@ -33083,6 +33086,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pub.doubleverify.com/dvtag/signals/*/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com|uniladtech.com
 @@||pub.doubleverify.com/signals/pub.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com|uniladtech.com
 @@||pub.doubleverify.com/signals/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com|uniladtech.com
+@@||pub.network/*/sites/netronline-com/configs$domain=netronline.com
+@@||pub.network/netronline-com/pubfig.min.js$domain=netronline.com
 @@||pub.network^$script,domain=creaders.net
 @@||pub.pixels.ai/prebid_standard.js$domain=standard.co.uk
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
@@ -36329,6 +36334,8 @@ abc7news.com#$#.StickyAdWrapper { display: none !important; }
 abcnews.go.com###themeProvider > div[class]:has(> div[class] > div[data-box-type="fitt-adbox-thinbannerhome"])
 abcnews.go.com##[data-testid="prism-sticky-ad"]
 abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
+abcnews.go.com#$#.StickyAdWrapper { display: none !important; }
+abcnews.go.com#$#.navigation--has-subnav { top: 0 !important; }
 abcnews.go.com,edarabia.com##.leaderboard-970
 abcvideo.cc#%#//scriptlet("abort-on-property-read", "nextPop")
 abcya.com##.a-leader
@@ -54959,8 +54966,10 @@ ipacrack.com#@#div[id*="ScriptRoot"]
 ipadforums.net##.mainContent > div.sectionMain.funbox
 ipadforums.net##.pageContent > div.sectionMain.funbox
 ipaidia.gr##.inarticle-add
+ipalibrary.me###hihi
 ipalibrary.me#$#.adsbygoogle.ads_above_banner { display: block !important; height: 1px !important; }
 ipalibrary.me#$#ins.adsbygoogle[data-ad-slot] { display: block !important; height: 1px !important; }
+ipalibrary.me#%#//scriptlet('prevent-fetch', 'gloacmug.net')
 ipalibrary.me#%#//scriptlet('prevent-setTimeout', 'afterRedirectUrl')
 ipcelou.com##.MODBanana
 ipcfun.com###crumb_r
@@ -58072,7 +58081,6 @@ linuxblog.io##.hayden-inpost_top
 linuxblog.io##.hayden-widget
 linuxblog.io##.hayden-widget_top_1
 linuxcapable.com#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
-linuxcapable.com,inc.com,businessday.ng,the-crossword-solver.com,crosswordsolver.com,greatbritishchefs.com,halotracker.com,wowdb.com,futbin.com,foxweather.com,tikmate.app,coomer.party,mixed-news.com,rome2rio.com,ubackup.com,southparkstudios.com,theglobeandmail.com,globalnews.ca,infoworld.com,worldsoccertalk.com,minecraftforum.net,snipboard.io,pics-x.com,recyclingtoday.com,battlefieldtracker.com,destinytracker.com,tracker.network,tracker.gg,jamesbachini.com,grammarbook.com,punchng.com,one-off.email,all3dp.com,mangafarm.com,mangajar.com,deeeep.io,raaaaft.io,trustedreviews.com,obsev.com,gfinityesports.com,reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,dvbtmap.eu,infinityfree.net,ibtimes.co.uk,amp-businessinsider-com.cdn.ampproject.org,deviantart.com,usatoday.com##.ad-container:not(#style_important)
 linuxcapable.com,lawenforcementtoday.com##.inside-right-sidebar > .FixedWidget__fixed_widget
 linuxde.net##.ad360x500
 linuxgizmos.com###ctkiba-blanket
@@ -59461,8 +59469,7 @@ maturesex.fun,teenpornvideo.fun,xteensex.net,oosex.net,theteensexy.com,nakedteen
 maturesladies.com###inVideoInner
 maturetubehere.com###lotal
 matzoo.pl##.reklamy
-matzoo.pl#$#.spolecznoscinet { height: 1px!important; }
-matzoo.pl#%#//scriptlet("prevent-setTimeout", "adblock")
+matzoo.pl#%#//scriptlet('prevent-setInterval', 'bait.offsetParent')
 mautofied.com###topLeaderboard
 mawtoload.com##a[target="_blank"] > img[src*=".wp.com/mawtoload.com/wp-content/uploads/"][src$=".webp"]
 maxcheaters.com###popupcontent_16 img
@@ -62258,6 +62265,8 @@ netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
 netlivetv.xyz#%#//scriptlet('trusted-set-constant', 'dtGonza.playeradstime', '"-1"')
+netronline.com#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'user-modal')
+netronline.com,linuxcapable.com,inc.com,businessday.ng,the-crossword-solver.com,crosswordsolver.com,greatbritishchefs.com,halotracker.com,wowdb.com,futbin.com,foxweather.com,tikmate.app,coomer.party,mixed-news.com,rome2rio.com,ubackup.com,southparkstudios.com,theglobeandmail.com,globalnews.ca,infoworld.com,worldsoccertalk.com,minecraftforum.net,snipboard.io,pics-x.com,recyclingtoday.com,battlefieldtracker.com,destinytracker.com,tracker.network,tracker.gg,jamesbachini.com,grammarbook.com,punchng.com,one-off.email,all3dp.com,mangafarm.com,mangajar.com,deeeep.io,raaaaft.io,trustedreviews.com,obsev.com,gfinityesports.com,reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,dvbtmap.eu,infinityfree.net,ibtimes.co.uk,amp-businessinsider-com.cdn.ampproject.org,deviantart.com,usatoday.com##.ad-container:not(#style_important)
 nettavisen.no###article-body > .rel-article
 nettavisen.no##.am-bazaar-ad
 nettavisen.no##.background-na-commercial
@@ -64178,9 +64187,9 @@ pagalguy.com##iframe[id^="vqa:ads:"]
 pagalworld.us#%#//scriptlet("prevent-window-open")
 pageMediaControl*$script
 pagesix.com##.nyp-video-player
-pagesix.com##.widget_nypost_dfp_ad_widget
 pagesix.com#$#body.header-recirc-bar-enabled { margin-top: 50px!important; }
 pagesix.com#@#.nyp-video-player
+pagesix.com,nypost.com##.widget_nypost_dfp_ad_widget:not(#style_important)
 pahe.plus##form#link-view > a
 paid4.link##.box > div[align="center"] > div.card
 paid4.link#%#//scriptlet("prevent-window-open")
@@ -92809,6 +92818,7 @@ zzzyk.com###Tinfo
 ||spark.cloud.funkedigital.de/agnes.js
 ||sparkasse.de/frontend/setTrackingCookie.htm
 ||sparklit.com/counter/
+||sparkmatch.life^$popup
 ||spaziogames.it/ajax/player_impression.ashx?
 ||spclient.wg.spotify.com/ad-logic/flashpoint
 ||specialisthuge.com^$popup
