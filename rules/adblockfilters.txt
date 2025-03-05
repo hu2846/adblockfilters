@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250305002653
-! Last modified: 2025/03/05 00:26:53
-! Blocked Filters: 96207
+! Version: 20250305093802
+! Last modified: 2025/03/05 09:38:02
+! Blocked Filters: 96215
 !
 ###AC_ad
 ###AD_160
@@ -34452,6 +34452,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||stapewithadblock.monster^$generichide
 @@||star-telegram.com^$generichide
 @@||starfaucet.net^$generichide
+@@||starlink.com/sst/gtag/js$script,~third-party
 @@||starman.ee/session/$stealth
 @@||stars24.cz^$generichide
 @@||start-player.npo.nl/video/$stealth
@@ -43256,6 +43257,7 @@ colourlovers.com#%#//scriptlet("abort-current-inline-script", "EventTarget.proto
 columbiaspectator.com###hor-in-article-ad-placement
 columbiaspectator.com###ver-in-article-ad-placement
 com:8891/c.php?s=*$third-party
+combot.org###stickerset-list > div.tw-grid > a[target="_blank"]:not([href^="https://t.me/"])
 comedy.co.uk##.promo-wrapper
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
@@ -49339,6 +49341,7 @@ freepik.com##.spr
 freepik.com##.spr-adblock
 freepik.com##.spr-bottom
 freepik.com##.spr-plc
+freepik.com##[data-testid="sponsor-banner"]
 freepik.com#%#//scriptlet("prevent-window-open", "aHR0cHM6Ly9jbGsudHJhZGVkb3VibGVyLmNvbS")
 freepik.com#%#//scriptlet("prevent-window-open", "clk.tradedoubler.com/click")
 freepik.com#%#//scriptlet('set-cookie', 'sponsor-popup', '1')
@@ -50579,6 +50582,7 @@ getgreenshot.org##.logo+nav > div[class^="ga-"]
 getintopca.com,oceanofgamese.com###instance-atom-text-2
 getintoway.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 getitfree.cn#%#//scriptlet("abort-current-inline-script", "document.getElementById", "/!document\.getElementById\([\s\S]*?\.style\.display=/")
+getmodsapk.cc#%#//scriptlet('prevent-window-open')
 getmodsapk.com###ad-container
 getmodsapk.com##center[style="position:relative; width:100%; min-height:336px;"]
 getmodsapk.com#%#//scriptlet('prevent-window-open')
@@ -54911,8 +54915,10 @@ iogames.onl##.Advc
 iogames.space###HomeRectAdMod
 iogames.space###v2-impTopBanner
 iogames.space##.banner-ad-contain
+iol.co.za##.article-content > div[display]:has(> div > .advert-inarticle)
 iol.co.za##.bDEZXQ
 iol.co.za##.lbMtEm
+iol.co.za##div:has(> div[class^="Outbrain"])
 iolecal.blogspot.com##.amazonAds
 ionomusic.com#@#object[width="300"][height="300"]
 ios-repo-updates.com##.adsbygoogleblock
@@ -59634,7 +59640,7 @@ mega4upload.com##center:has(> div[id*="-"][style^="min-width: 3"][style*="min-he
 mega4upload.com##div[class="mb-4 text-center"] > a > img
 mega4upload.com#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 mega4upload.com#%#//scriptlet('remove-attr', 'onclick', '#direct_link > a[onclick]')
-mega4upload.net#%#//scriptlet('abort-on-property-read', 'popupOpened')
+mega4upload.net#%#//scriptlet('prevent-addEventListener', 'click', 'popupOpened')
 megacloud.*,megacloud.tube,doodstreams.net,divicast.com,moviesjoy.plus,goku.to,f2movies.to,dokicloud.one,mzzcloud.life,fmovies.app,moviesjoy.to,sflix.to,himovies.to,vidcloud.pro,vidcloud.msk.ru###overlay-container
 megacloud.tv###overlay-center
 megacloud.tv,divicast.com,moviesjoy.plus,zoechip.com,dokicloud.one,fmoviefree.net,goku.sx,fmoviefree.net,vidcloud.*###overlay-center
@@ -76931,8 +76937,10 @@ walmart.*##a[href*=".criteo.com/"]
 walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
 walmart.*##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 walmart.*##div[data-automation^="HookLogicCarouses"]
+walmart.*##div[data-testid^="sba-container"]
 walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
+walmart.*#?#div[role="group"]:-abp-has(div:-abp-contains(/Sponsored|Commandité/))
 walmart.com##.WMXOMPAdController
 walmart.com##.spotAds
 walmart.com##div[data-testid="flex-container"] > .relative > div[data-testid="skyline-ad"]
