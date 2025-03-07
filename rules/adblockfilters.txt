@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250307002616
-! Last modified: 2025/03/07 00:26:16
-! Blocked Filters: 96278
+! Version: 20250307093858
+! Last modified: 2025/03/07 09:38:58
+! Blocked Filters: 96284
 !
 ###AC_ad
 ###AD_160
@@ -24665,6 +24665,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ?advertiser_id=$domain=~ads.pinterest.com
 ?aff_pg=PPU&aff_id=$all
 ?bannerid=
+?bd=ppd&r=$popup
 ?cf=ppd&r=$popup
 ?cs=*&abt=0&red=1&sm=$third-party
 ?dovr=true|$document,popup
@@ -31568,7 +31569,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||natro.com^$stealth=dpi
 @@||naturalbd.com^$generichide
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
-@@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||naver.net/wcslog.js$domain=fragpunk.com|m.tv.naver.com
 @@||navratdoreality.cz^$generichide
 @@||nazolog.com^$generichide
 @@||nb-music.net^$generichide
@@ -40948,6 +40949,7 @@ boycall.com##.source_info
 boyfriendtv.com##.adblock
 boyfriendtv.com##.live-cam-popunder
 boyfriendtv.com##.video-extra-wrapper
+boyfriendtv.com##a[href*="&creativeId="]
 boyfriendtv.com##a[href*="&creativeId=popunder-listing"]
 boyfriendtv.com#%#//scriptlet('abort-on-property-read', 'backgroundBlack')
 boyfriendtv.com#%#//scriptlet('prevent-addEventListener', 'click', 'interstitial')
@@ -64067,6 +64069,7 @@ overdrive.in##.add2
 overkill.wtf##.kg-blockquote-alt
 overseries.tv##.pcShow
 overseries.tv##a[target="_blank"] > img
+overtake.gg##.js-notice.notice
 overtake.gg,shtfplan.com##.overlay-container
 overthecap.com##.left-fa-ads
 overwatch.op.gg##.SideContent > div[id]:has(> div[id^="ad-container-"])
@@ -69516,6 +69519,7 @@ shrtco.de##.aarea
 shrtfly.net#%#//scriptlet("abort-on-property-read", "open")
 shrtfly.net#%#//scriptlet("abort-on-property-read", "tabUnder")
 shrtz.me##div[style*="padding-top:10px;"][style*="width:300px;"]
+shtfplan.com##.overlay-container
 shtms.co,gitizle.vip,ay.live#%#//scriptlet('remove-attr', 'data-ppcnt_ads', 'main')
 shtms.co,gitizle.vip,ay.live#%#//scriptlet('set-constant', 'mainClick', 'undefined')
 shtms.co,gitizle.vip,ay.live#%#//scriptlet('set-constant', 'popush', 'undefined')
@@ -75996,6 +76000,7 @@ usmagazine.com##.module-storyme
 usnews.com###ac-lre-player-ph
 usnews.com###bfad-slot
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
+usnews.com##[data-ad-props]
 usnews.com##div[class*="Ad__Container"]
 usnews.com##div[class*="FeaturedTravelDeals__TravelzooContainer-"]
 usnews.com##div[class*="MobileAdContainer"]
@@ -83080,6 +83085,7 @@ zzzyk.com###Tinfo
 ||boyfriend.show/widgets/Spot
 ||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/b/
+||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/bftv/www/js/*.min.js?url=
 ||boyfriendtv.com/out/bg-$popup
 ||boylov.xyz^*/img/20*.gif
