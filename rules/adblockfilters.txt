@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250419002627
-! Last modified: 2025/04/19 00:26:27
-! Blocked Filters: 97663
+! Version: 20250419093913
+! Last modified: 2025/04/19 09:39:13
+! Blocked Filters: 97662
 !
 ###AC_ad
 ###AD_160
@@ -40025,7 +40025,6 @@ bchtechnologies.com#%#//scriptlet('abort-current-inline-script', 'document.creat
 bcmagazine.net##img[style^="width:300px;"]
 bcquan.me##.bcqad
 bcvc.*#%#//scriptlet("abort-on-property-read", "pop_init")
-bdcraft.net###bottombanner
 bde4.com#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
 bde4.icu#$#a[href*="/entry/register/?i_code="] { position: absolute !important; left: -3000px !important; }
 bde4.icu#%#//scriptlet("set-constant", "canRunAds", "true")
@@ -56933,6 +56932,7 @@ jofogas.hu#$##page-content { margin-top: 0 !important; }
 johncodeos.com##.johnc-widget
 joindota.com##.monkey-container
 joins.com,kmplayer.com##.r_banner
+jojo-news.com,bdcraft.net###bottombanner
 jokeji.cn##.ad360_280
 jokerlu.com##.closebox
 jokerlu.com,jokerlu1.com##a[onclick^="_czc."]
@@ -58125,7 +58125,7 @@ lamiareport.gr#$#html > body { background-image: none !important; background-col
 lamoda.pl###ad-top-holder
 lamoda.pl##.onet-ad
 lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
-lanazione.it##div[class$=" amp__watermark"]
+lanazione.it,ilgiorno.it,ilrestodelcarlino.it,quotidiano.net##div[class*=" amp__watermark"]
 landernitemons.monster,lookmovie.foundation,sextb.net,wjunction.com##div[style^="text-align: center;"] > a[target="_blank"] > img
 landiannews.com###block-2
 landiannews.com##.sidebar > section#block-4
@@ -96441,7 +96441,6 @@ zzzyk.com###Tinfo
 ||webmagazyn.pl/*/wp-content/uploads/*/300-250pammm-300x250.jpg
 ||webmd.com/static/v/c?
 ||webnovelonline.com/static/media/banner_
-||webpageviews.click^$third-party
 ||webpu.sh^$third-party
 ||websearchers.net^$popup
 ||webseed.com/WP/
