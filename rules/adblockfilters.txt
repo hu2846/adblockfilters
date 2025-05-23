@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250523002838
-! Last modified: 2025/05/23 00:28:38
-! Blocked Filters: 98894
+! Version: 20250523094808
+! Last modified: 2025/05/23 09:48:08
+! Blocked Filters: 98900
 !
 ###AC_ad
 ###AD_160
@@ -30913,6 +30913,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||js-sec.indexww.com/ht/p/*.js$domain=macworld.co.uk
 @@||js-sec.indexww.com/htv/bell.js$domain=envedette.ca
 @@||js.adscale.de/getads.js:adscale_slot_id/$domain=dasolo.org
+@@||js.adsrvr.org/up_loader.1.1.0.js$domain=sterkinekor.com
 @@||js.appboycdn.com/web-sdk/$domain=kfc.co.jp
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
 @@||js.assemblyexchange.com/videojs-skip-ima3-unskippable.min.js$domain=worldstar.com|worldstarhiphop.com
@@ -42510,6 +42511,11 @@ castracoin.com#$#.textads.adsbox { display: block !important; }
 cat3movie.org###ads-preload
 cat3movie.org##.float-ck-center-lt
 cat3movie.org,gossipfunda.com,paradacreativa.es###custom_html-14
+catalog-az.ro##.ads-container
+catalog-az.ro##.long-ad
+catalog-az.ro##.tall-ads-container
+catalog-az.ro##div[class^="catalogue-entry-ad-"]
+catalog-az.ro#?#.small:contains(Publicitate)
 catb.org#@##banner-ad
 catch.tube#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'document.location.href')
 catchv.fooish.com###ad
@@ -51352,6 +51358,7 @@ gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
 gats.io#$##detect.ad-placement { display: block !important; }
+gault-millau.nl,gaultmillau.be,gaultmillau.lu##.off-brand
 gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
 gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
 gay.bingo##.ad-w
@@ -54265,6 +54272,7 @@ hometheaterreview.com###section-20297-191992
 hometheaterreview.com###section-246-102074
 hometheaterreview.com###section-38-64990
 hometheaterreview.com##.bottom-sticky-ad
+hometheaterreview.com##.homet-sidebars
 hometheaterreview.com##div[id^="amzn-assoc-ad-"]
 hometheaterreview.com#$#@media (max-width: 991px) { body .ct-new-columns > .ct-div-block:last-child:not(#style_important) { height: auto !important; } }
 hometheaterreview.com#?##htrpostcontent > section:has(> div.ct-section-inner-wrap > div.ct-code-block > div[id^="homet-"])
@@ -85496,7 +85504,6 @@ zzzyk.com###Tinfo
 ||breadpayments.com/stats
 ||breakdownexpress.com/js/ads
 ||breitbart.com/t/assets/js/prebid
-||brevo.com^$third-party
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thepinknews.com
 ||bridge-ashiato.appspot.com/beacon/
 ||brief.pl/wp-content/uploads/*/*/*-Banner-*.gif
@@ -86720,7 +86727,6 @@ zzzyk.com###Tinfo
 ||cr173.com/skina/
 ||cr173.com/skinb/
 ||crackshash.com/dc.php?$popup
-||cradaygo.com^$document
 ||crall.io/beacon/
 ||crambidnonutilitybayadeer.com^$popup
 ||crank-in.net/assets/common/js/sendpv.js
@@ -89376,6 +89382,7 @@ zzzyk.com###Tinfo
 ||hoes.tube/ai/
 ||hog.tv/sw.js^
 ||holdonstranger.com^$third-party
+||holidaycheck.*/svc/ubt/v1/events
 ||hollaforums.com/if/rc
 ||holyfamilyradio.org/banners/
 ||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com/www.vgtv.no/config.json$replace=/"enabled": true\,/"enabled": false\,/i
@@ -98470,7 +98477,6 @@ zzzyk.com###Tinfo
 ||ynet.co.il/gpt/
 ||ynet.com/c/js/manto.min.js
 ||ynztzh.com^$third-party
-||yodalytics.com^$third-party
 ||yodayo.com/scripts/pixel.js
 ||yohavemix.live^$popup
 ||yorkbbs.ca/crm/section/v1/get/list/open
