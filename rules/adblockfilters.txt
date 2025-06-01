@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250601002555
-! Last modified: 2025/06/01 00:25:55
+! Version: 20250601100643
+! Last modified: 2025/06/01 10:06:43
 ! Blocked Filters: 98797
 !
 ###AC_ad
@@ -1661,7 +1661,6 @@
 ###adv-Middle2
 ###adv-Scrollable
 ###adv-Top
-###adv-TopLeft
 ###adv-banner
 ###adv-banner-r
 ###adv-box
@@ -43429,6 +43428,7 @@ cliphotnews.*##a[href="javascript:x_catfish();"]
 cliphunter.com###plrAd
 cliphunter.com##.SpacingResetXS
 clipmass.com###fancybox-wrap
+clipsexsub3x.net##.catfish-bottom
 clipwatching.*#%#//scriptlet("set-constant", "dtGonza.playeradstime", "-1")
 clk.ink##div[data-captcha-enable] > div[id^="google-captcha-"]
 clk.ink#%#//scriptlet("remove-attr", "href", "a[href='/skiplink'][target='_blank']")
