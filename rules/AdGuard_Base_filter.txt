@@ -15,6 +15,9 @@
 !
 !
 !
+||livestt.co^
+||skypie.info^
+||jsonads.upnerd.net^
 ||otvnwagpia.com^
 ||whiteinflammablejaws.com^
 ||aweyqaqkrvjm.top^
@@ -44050,6 +44053,11 @@ vatantat.ru##a[href="https://pobeda.onf.ru/"]
 !
 !
 123-hd.com##div[id^="banner_"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/206594
+thaihubx.tv##.adcen
+thaihubx.tv##img[class^="ads"]
+thaihubx.tv##div[id$="-l"]
+thaihubx.tv##div[id$="-r"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/200270
 ||adsok.co^$third-party
 .gif^$image,domain=dooporn24.com
@@ -51993,6 +52001,9 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ! NOTE: Specific rules
 !
 !
+news18.com##.add_container-pht
+news18.com##.phtgalwrp > div[style*="padding:"]:has(> div > .nw18-dfp-ad)
+hltv.org##.centered-placement
 nuvid.com##a[class$="_premium_bar"]
 ||nuvid.com/NB*.js$match-case
 /nwulh$script,domain=simpcity.su
@@ -52845,8 +52856,8 @@ kiplinger.com##.jwplayer__widthsetter
 sportingnews.com###video-player
 ||skiplinks.xyz/ads.js
 skiplinks.xyz##center > a[class] > img
-skiplinks.xyz,androidadult.com#%#//scriptlet('abort-on-property-write', 'AdProvider')
-skiplinks.xyz,androidadult.com#%#//scriptlet('trusted-suppress-native-method', 'document.write', '"track"')
+adultcomixxx.com,lewdsteam.com,skiplinks.xyz,androidadult.com#%#//scriptlet('abort-on-property-write', 'AdProvider')
+adultcomixxx.com,lewdsteam.com,skiplinks.xyz,androidadult.com#%#//scriptlet('trusted-suppress-native-method', 'document.write', '"track"')
 ||fileditch.com/woetpls.jpg
 fileditchfiles.me##.ad-container
 ||selector.voltaxam.com/ads
@@ -73000,7 +73011,7 @@ babycenter.com#@#.cnx-player-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199051
 @@||gamezop.com^$domain=labgame.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198980
-@@||skiplinks.xyz/skipad.webp$domain=skiplinks.xyz
+@@||skiplinks.xyz/skipad.webp$domain=skiplinks.xyz|lewdsteam.com|adultcomixxx.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199018
 earth.com#@##ad-container
 earth.com#@#[class^="s2nPlayer"]
@@ -77724,6 +77735,9 @@ implbits.com#@#.banner_container
 !#########################################
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/206614
+!+ PLATFORM(android)
+@@||trueachievements.com^$stealth=useragent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206413
 @@||pornxp.net^$stealth=ip
 @@||pornxp.eu^$stealth=ip
