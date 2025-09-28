@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250928094824
-! Last modified: 2025/09/28 09:48:24
-! Blocked Filters: 98293
+! Version: 20250928162439
+! Last modified: 2025/09/28 16:24:39
+! Blocked Filters: 98298
 !
 ###AC_ad
 ###AD_160
@@ -73816,6 +73816,8 @@ terenyinwestycyjne.info##.advert-block-wide
 terenyinwestycyjne.info#?#.news-list > .news-item:has(> .advert-block-wide)
 termedia.pl##.adPartner
 terminal.hackernoon.com##.right
+ternity.net###playerdavLayer
+ternity.net##.da
 teroradio.com###leaderboard
 teroradio.com#$##leaderboard-billboard { visibility: hidden !important; height: 0 !important; }
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
@@ -84528,6 +84530,7 @@ zzzyk.com###Tinfo
 ||block.s*block.com^
 ||block.s*block.com^$third-party
 ||blockchain.info/explorer-gateway/advertisements
+||blockdetector.org^$third-party
 ||blocker.crabdance.com^$domain=sonixgvn.net
 ||blocket.se/js/trafikfonden.js
 ||blockworks.co/_vercel/insights/
@@ -92169,7 +92172,6 @@ zzzyk.com###Tinfo
 ||okooo.com/I/?method=system.data.ad&
 ||okx.com/jsstat/sb?
 ||ol-img.com/channel/tuku/js/tukuPopup.js
-||olacontent.schwab.com^$script
 ||olawa24.pl/media/campaigns/files/$image
 ||older-mature.net/pop.js
 ||older-mature.net^$image,domain=pussyspot.net
@@ -97936,6 +97938,8 @@ zzzyk.com###Tinfo
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/embed/$domain=akhbarelyom.com
 ||youtube.com/embed/$domain=icutit.ca|sxyprn.net
 ||youtube.com/embed/$domain=onionplay.*
@@ -97950,6 +97954,7 @@ zzzyk.com###Tinfo
 ||youtube.com/iframe_api$domain=nownews.com
 ||youtube.com/pagead/
 ||youtube.com/pcs/activeview?
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content
 ||youtube.com/set_awesome?
 ||youtube.com/watch$replace=/adSlots/no_ads/,document
 ||youtube.com/youtubei/v1/log_event?
