@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251218095106
-# Last modified: 2025/12/18 09:51:06
-# Blocked domains: 7148
+# Version: 20251218163357
+# Last modified: 2025/12/18 16:33:57
+# Blocked domains: 7153
 #
 DOMAIN-SUFFIX,kwcdn.000dn.com
 DOMAIN-SUFFIX,kwcscdn.000dn.com
@@ -80,7 +80,6 @@ DOMAIN-SUFFIX,webstat.ws.126.net
 DOMAIN-SUFFIX,yp.ws.126.net
 DOMAIN-SUFFIX,yt-adp.ws.126.net
 DOMAIN-SUFFIX,iadmat.nosdn.127.net
-DOMAIN-SUFFIX,iadmatapk.nosdn.127.net
 DOMAIN-SUFFIX,iadmatvideo.nosdn.127.net
 DOMAIN-SUFFIX,nosup-jd1.127.net
 DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net
@@ -369,6 +368,7 @@ DOMAIN-SUFFIX,web.51fishplace.com
 DOMAIN-SUFFIX,stat.51hchc.com
 DOMAIN-SUFFIX,trace.51jingying.com
 DOMAIN-SUFFIX,scdata.51job.com
+DOMAIN-SUFFIX,51link.com
 DOMAIN-SUFFIX,a1.51shiti.cn
 DOMAIN-SUFFIX,51taifu.com
 DOMAIN-SUFFIX,ad.video.51togic.com
@@ -560,7 +560,6 @@ DOMAIN-SUFFIX,a9v8.cn
 DOMAIN-SUFFIX,aa88691468.cn
 DOMAIN-SUFFIX,aaoffice.cn
 DOMAIN-SUFFIX,abbyychina.com
-DOMAIN-SUFFIX,rrss.abc.es
 DOMAIN-SUFFIX,abcde4374968.cn
 DOMAIN-SUFFIX,msmp.abchina.com.cn
 DOMAIN-SUFFIX,smetrics.abercrombie.cn
@@ -623,7 +622,6 @@ DOMAIN-SUFFIX,adx.adxiuqia.com
 DOMAIN-SUFFIX,adxmi.com
 DOMAIN-SUFFIX,api.adxpand.com
 DOMAIN-SUFFIX,monitor.adxsenmeng.com
-DOMAIN-SUFFIX,rtb.adxsenmeng.com
 DOMAIN-SUFFIX,adxvip.com
 DOMAIN-SUFFIX,track.adxwork.com
 DOMAIN-SUFFIX,adyun.com
@@ -842,7 +840,6 @@ DOMAIN-SUFFIX,haa3j9plpi-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,hdtu.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,httpdns-api.aliyuncs.com
 DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com
-DOMAIN-SUFFIX,hwztx6svg3-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,hxyhxsq4jc-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,j2c03hoppk-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,jinshi123.oss-cn-beijing.aliyuncs.com
@@ -932,6 +929,7 @@ DOMAIN-SUFFIX,apkevery.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,mobile.appchina.com
+DOMAIN-SUFFIX,chassis-cdn.appcloudcdn.com
 DOMAIN-SUFFIX,appdriver.cn
 DOMAIN-SUFFIX,appgift.sinaapp.com
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -943,6 +941,7 @@ DOMAIN-SUFFIX,adx.appsdk.com.cn
 DOMAIN-SUFFIX,appsdt.com
 DOMAIN-SUFFIX,tracking.apptrackerlink.com
 DOMAIN-SUFFIX,appuu.cn
+DOMAIN-SUFFIX,static.appbox.apuslauncher.com
 DOMAIN-SUFFIX,track-ger.aqara.com
 DOMAIN-SUFFIX,pay.aqiu6.com
 DOMAIN-SUFFIX,stat.armvm.com
@@ -1235,7 +1234,6 @@ DOMAIN-SUFFIX,baminw.com.cn
 DOMAIN-SUFFIX,banyunjuhe.com
 DOMAIN-SUFFIX,active.baofeng.com
 DOMAIN-SUFFIX,midinfo.baofeng.com
-DOMAIN-SUFFIX,a.baomihua.com
 DOMAIN-SUFFIX,resource.baomihua.com
 DOMAIN-SUFFIX,bartender.cc
 DOMAIN-SUFFIX,telemetry-in.battlenet.com.cn
@@ -1262,7 +1260,6 @@ DOMAIN-SUFFIX,global-staticplat.cdn.bcebos.com
 DOMAIN-SUFFIX,internal-amis-res.cdn.bcebos.com
 DOMAIN-SUFFIX,lupic.cdn.bcebos.com
 DOMAIN-SUFFIX,med-fe.cdn.bcebos.com
-DOMAIN-SUFFIX,miniapp-ad.bj.bcebos.com
 DOMAIN-SUFFIX,miniapp-ad.cdn.bcebos.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,ns-strategy.cdn.bcebos.com
@@ -1305,7 +1302,6 @@ DOMAIN-SUFFIX,api.data.beautyplus.com
 DOMAIN-SUFFIX,beencounter.com
 DOMAIN-SUFFIX,analytics.behr.com
 DOMAIN-SUFFIX,images.explore.behr.com
-DOMAIN-SUFFIX,beigonggroup.com
 DOMAIN-SUFFIX,ad.beihai365.com
 DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,smetrics.benefitcosmetics.com.cn
@@ -1372,7 +1368,6 @@ DOMAIN-SUFFIX,ai.bioon.com
 DOMAIN-SUFFIX,www.biqubao.com
 DOMAIN-SUFFIX,carstat.bitauto.com
 DOMAIN-SUFFIX,log.bitauto.com
-DOMAIN-SUFFIX,branch.wallet.bitcoin.com
 DOMAIN-SUFFIX,img11.biyan8.com
 DOMAIN-SUFFIX,track-ad.biyingniao.com
 DOMAIN-SUFFIX,pubserver1.bizport.cn
@@ -1465,7 +1460,6 @@ DOMAIN-SUFFIX,s.c-ctrip.com
 DOMAIN-SUFFIX,dispatcher.c360dn.com
 DOMAIN-SUFFIX,dispatcher-bsy.c360dn.com
 DOMAIN-SUFFIX,c4d4.cn
-DOMAIN-SUFFIX,download.caihong.com
 DOMAIN-SUFFIX,adashx.ut.cainiao.com
 DOMAIN-SUFFIX,h-adashx.ut.cainiao.com
 DOMAIN-SUFFIX,nbnest-admonitor.cainiao.com
@@ -1488,6 +1482,15 @@ DOMAIN-SUFFIX,caomeixz7.xyz
 DOMAIN-SUFFIX,caonimazuzong.com
 DOMAIN-SUFFIX,baidu1.cardbaobao.com
 DOMAIN-SUFFIX,cardkd.cn
+DOMAIN-SUFFIX,cartaocontinente-ptrs.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptrse.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptrst.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptrsv.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptrzr.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptrzs.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptsc.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptsv.cfd
+DOMAIN-SUFFIX,cartaocontinente-ptsz.cfd
 DOMAIN-SUFFIX,cartaocontinente-ptszc.cfd
 DOMAIN-SUFFIX,cartx.cloud
 DOMAIN-SUFFIX,super.cat898.com
@@ -1558,7 +1561,6 @@ DOMAIN-SUFFIX,smbocbn.cdybq.cn
 DOMAIN-SUFFIX,log.cece.com
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,cengqinglin.cn
-DOMAIN-SUFFIX,stats.centbrowser.cn
 DOMAIN-SUFFIX,update.cg100iii.com
 DOMAIN-SUFFIX,cgigc.com.cn
 DOMAIN-SUFFIX,lc.ch.com
@@ -1596,7 +1598,6 @@ DOMAIN-SUFFIX,dvser.china.com
 DOMAIN-SUFFIX,rankhit.china.com
 DOMAIN-SUFFIX,sssvd.china.com
 DOMAIN-SUFFIX,union.china.com.cn
-DOMAIN-SUFFIX,chinaapper.com
 DOMAIN-SUFFIX,feedbackstorage.blob.core.chinacloudapi.cn
 DOMAIN-SUFFIX,pcmactivity.chinacloudsites.cn
 DOMAIN-SUFFIX,adpic.chinadaily.com.cn
@@ -1618,6 +1619,7 @@ DOMAIN-SUFFIX,chnrailway.com
 DOMAIN-SUFFIX,cholo215.cn
 DOMAIN-SUFFIX,cholor201115.cn
 DOMAIN-SUFFIX,chong-wu.net
+DOMAIN-SUFFIX,chronopost-fr.help
 DOMAIN-SUFFIX,chshcms.net
 DOMAIN-SUFFIX,config.chsmarttv.com
 DOMAIN-SUFFIX,data.chsmarttv.com
@@ -1682,6 +1684,7 @@ DOMAIN-SUFFIX,cmpxaup.cn
 DOMAIN-SUFFIX,ggc.cmvideo.cn
 DOMAIN-SUFFIX,ggic.cmvideo.cn
 DOMAIN-SUFFIX,ggx.cmvideo.cn
+DOMAIN-SUFFIX,cn-wps-office.cn
 DOMAIN-SUFFIX,telemetry.canva.cn.cdn.cloudflarecn.net
 DOMAIN-SUFFIX,cnad.com
 DOMAIN-SUFFIX,ad-api.cnblogs.com
@@ -1692,6 +1695,7 @@ DOMAIN-SUFFIX,adm.cloud.cnfol.com
 DOMAIN-SUFFIX,abcd.cnhuoche.com
 DOMAIN-SUFFIX,cnitblog.com
 DOMAIN-SUFFIX,ad.cnki.net
+DOMAIN-SUFFIX,hmjs.cnmo-img.com.cn
 DOMAIN-SUFFIX,icon.cnmo.com
 DOMAIN-SUFFIX,webcert.cnmstl.net
 DOMAIN-SUFFIX,smuc.cnnfootballclub.com
@@ -1707,10 +1711,10 @@ DOMAIN-SUFFIX,cnzz.cn
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,logstorage.cocos.com
 DOMAIN-SUFFIX,codenow.cn
+DOMAIN-SUFFIX,1.codesdq.com
 DOMAIN-SUFFIX,reportwest-midas.codmwest.com
 DOMAIN-SUFFIX,interactivoebrokers-com.coin888.cn
 DOMAIN-SUFFIX,plausible.coinglass.com
-DOMAIN-SUFFIX,collection-endpoint-prod.herokuapp.com
 DOMAIN-SUFFIX,conn1.coloros.com
 DOMAIN-SUFFIX,conn2.coloros.com
 DOMAIN-SUFFIX,conn3.coloros.com
@@ -1729,7 +1733,7 @@ DOMAIN-SUFFIX,log-eap.coloros.com
 DOMAIN-SUFFIX,log-eap-in.coloros.com
 DOMAIN-SUFFIX,log-eap-sg.coloros.com
 DOMAIN-SUFFIX,moa-upload-online.coloros.com
-DOMAIN-SUFFIX,commander1.com
+DOMAIN-SUFFIX,comea.icu
 DOMAIN-SUFFIX,commandersact.com
 DOMAIN-SUFFIX,trk.compair.com.cn
 DOMAIN-SUFFIX,strack.concur.cn
@@ -1854,6 +1858,7 @@ DOMAIN-SUFFIX,wdr160gz.dayugslb.com
 DOMAIN-SUFFIX,dazhantai.com
 DOMAIN-SUFFIX,t188.dazhonghua.cn
 DOMAIN-SUFFIX,bdjs.daziba.cn
+DOMAIN-SUFFIX,db15fb15d51.icu
 DOMAIN-SUFFIX,cs02-pps-dra.dbankcdn.com
 DOMAIN-SUFFIX,cs02-pps-drcn.dbankcdn.com
 DOMAIN-SUFFIX,grs.dbankcloud.asia
@@ -2042,7 +2047,6 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,abc.douguo.com
 DOMAIN-SUFFIX,kpshx.douguo.com
 DOMAIN-SUFFIX,leabd.douguo.com
-DOMAIN-SUFFIX,download.doumaibiji.cn
 DOMAIN-SUFFIX,doumob.com
 DOMAIN-SUFFIX,douyaobuy.com
 DOMAIN-SUFFIX,wan.douyu.com
@@ -2059,7 +2063,6 @@ DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn
 DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn
 DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn
 DOMAIN-SUFFIX,p2plog.douyucdn.cn
-DOMAIN-SUFFIX,rtbapi.douyucdn.cn
 DOMAIN-SUFFIX,sdkapi.douyucdn.cn
 DOMAIN-SUFFIX,stun.douyucdn.cn
 DOMAIN-SUFFIX,stun1.douyucdn.cn
@@ -2068,10 +2071,27 @@ DOMAIN-SUFFIX,tx2play2.douyucdn.cn
 DOMAIN-SUFFIX,dotcounter.douyutv.com
 DOMAIN-SUFFIX,fintech.downyi.cn
 DOMAIN-SUFFIX,s.doyo.cn
+DOMAIN-SUFFIX,dpbat.qpon
+DOMAIN-SUFFIX,dpd-com.qpon
 DOMAIN-SUFFIX,dpd-prtsve.cfd
+DOMAIN-SUFFIX,dpd-prtsvr.cfd
 DOMAIN-SUFFIX,dpd-prtsvs.cfd
+DOMAIN-SUFFIX,dpd-prtsvu.cfd
 DOMAIN-SUFFIX,dpd-prtsvz.cfd
-DOMAIN-SUFFIX,drdwy.com
+DOMAIN-SUFFIX,dpd-prtszc.cfd
+DOMAIN-SUFFIX,dpd-prtszn.cfd
+DOMAIN-SUFFIX,dpd-prtszo.cfd
+DOMAIN-SUFFIX,dpd-prtszr.cfd
+DOMAIN-SUFFIX,dpd-prtszt.cfd
+DOMAIN-SUFFIX,dpd-prtszu.cfd
+DOMAIN-SUFFIX,dpd-prtszv.cfd
+DOMAIN-SUFFIX,dpdati.qpon
+DOMAIN-SUFFIX,dpdatie.qpon
+DOMAIN-SUFFIX,dpdrat.qpon
+DOMAIN-SUFFIX,dpdret.qpon
+DOMAIN-SUFFIX,dpdsat.qpon
+DOMAIN-SUFFIX,dppdat.qpon
+DOMAIN-SUFFIX,dpsdat.qpon
 DOMAIN-SUFFIX,drivethelife.com
 DOMAIN-SUFFIX,dspunion.com
 DOMAIN-SUFFIX,analytics.dsyqt.com
@@ -2084,6 +2104,7 @@ DOMAIN-SUFFIX,duba.net
 DOMAIN-SUFFIX,img.dubyc.com
 DOMAIN-SUFFIX,dui88.com
 DOMAIN-SUFFIX,duiba.com.cn
+DOMAIN-SUFFIX,duipdat.cc
 DOMAIN-SUFFIX,union.duizhuang.com
 DOMAIN-SUFFIX,picture.duokan.com
 DOMAIN-SUFFIX,fm.duokanbox.com
@@ -2155,7 +2176,6 @@ DOMAIN-SUFFIX,ecsdk.com
 DOMAIN-SUFFIX,ecudsc.cn
 DOMAIN-SUFFIX,acccountverificatonlog.edgeone.app
 DOMAIN-SUFFIX,c2vydmvydxbkyxri-kte1fxva3p.edgeone.app
-DOMAIN-SUFFIX,chrisbenoitkane.edgeone.app
 DOMAIN-SUFFIX,earthewndegtheyased.edgeone.app
 DOMAIN-SUFFIX,hkz2311011313001-l5deuphxox.edgeone.app
 DOMAIN-SUFFIX,hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
@@ -2172,6 +2192,7 @@ DOMAIN-SUFFIX,tropical-red-pd56z5jhth.edgeone.dev
 DOMAIN-SUFFIX,vambanlopcaxomilsss.edgeone.dev
 DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,eexlgyn.cn
+DOMAIN-SUFFIX,eeyy.com
 DOMAIN-SUFFIX,effectivehealthy.cn
 DOMAIN-SUFFIX,efusc.com
 DOMAIN-SUFFIX,metrics.egencia.cn
@@ -2209,13 +2230,13 @@ DOMAIN-SUFFIX,eavs02.eqifa.com
 DOMAIN-SUFFIX,eqqi.cn
 DOMAIN-SUFFIX,m.ercos.cn
 DOMAIN-SUFFIX,analytics.escience.org.cn
+DOMAIN-SUFFIX,esdaftot.qpon
 DOMAIN-SUFFIX,update.estrongs.com
 DOMAIN-SUFFIX,www.estrongs.com
 DOMAIN-SUFFIX,ethan.wang
 DOMAIN-SUFFIX,c.etoolads.cn
 DOMAIN-SUFFIX,marketing.etouch.cn
 DOMAIN-SUFFIX,etrack07.com
-DOMAIN-SUFFIX,evo-whatsapp.com.cn
 DOMAIN-SUFFIX,duologinsupersdk.ewan.cn
 DOMAIN-SUFFIX,gl.ewdcloud.com
 DOMAIN-SUFFIX,a.exam58.com
@@ -2347,7 +2368,6 @@ DOMAIN-SUFFIX,pub.funshion.com
 DOMAIN-SUFFIX,pv.funshion.com
 DOMAIN-SUFFIX,stat.funshion.com
 DOMAIN-SUFFIX,vs.funshion.com
-DOMAIN-SUFFIX,rt.funshion.net
 DOMAIN-SUFFIX,stat.funshion.net
 DOMAIN-SUFFIX,collect.futufin.com
 DOMAIN-SUFFIX,trk.futureelectronics.cn
@@ -2366,7 +2386,6 @@ DOMAIN-SUFFIX,g9hc4.cn
 DOMAIN-SUFFIX,gainifyads.com
 DOMAIN-SUFFIX,fc.gaizong.cn
 DOMAIN-SUFFIX,tg.game2.cn
-DOMAIN-SUFFIX,gameanalytics.com
 DOMAIN-SUFFIX,ng-vn-notice.gameitop.com
 DOMAIN-SUFFIX,ad.gameley.com
 DOMAIN-SUFFIX,click.gamersky.com
@@ -2375,7 +2394,6 @@ DOMAIN-SUFFIX,ja1.gamersky.com
 DOMAIN-SUFFIX,ja2.gamersky.com
 DOMAIN-SUFFIX,router.gamersky.com
 DOMAIN-SUFFIX,wmbd.gamersky.com
-DOMAIN-SUFFIX,events.api.gamma.app
 DOMAIN-SUFFIX,jiaoben.ganji.cn
 DOMAIN-SUFFIX,ad.ganji.com
 DOMAIN-SUFFIX,analytics.ganji.com
@@ -2436,7 +2454,6 @@ DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,msg.ptqy.gitv.tv
 DOMAIN-SUFFIX,msga.ptqy.gitv.tv
 DOMAIN-SUFFIX,nl.rcd.ptqy.gitv.tv
-DOMAIN-SUFFIX,openapi.vip.ptqy.gitv.tv
 DOMAIN-SUFFIX,ota.ptqy.gitv.tv
 DOMAIN-SUFFIX,pb.bi.gitv.tv
 DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv
@@ -2478,6 +2495,14 @@ DOMAIN-SUFFIX,tradeshow.edm.globalsources.com
 DOMAIN-SUFFIX,1.glook.cn
 DOMAIN-SUFFIX,sensorsdata.glowapp.vip
 DOMAIN-SUFFIX,l.glrcy.cn
+DOMAIN-SUFFIX,glsdh.cfd
+DOMAIN-SUFFIX,glseh.cfd
+DOMAIN-SUFFIX,glsgn.cfd
+DOMAIN-SUFFIX,glsgt.cfd
+DOMAIN-SUFFIX,glshin.cfd
+DOMAIN-SUFFIX,glsqr.cfd
+DOMAIN-SUFFIX,glstn.cfd
+DOMAIN-SUFFIX,glswi.cfd
 DOMAIN-SUFFIX,glwxw.net
 DOMAIN-SUFFIX,gmanhua.com
 DOMAIN-SUFFIX,cpux.gmud.top
@@ -2485,6 +2510,8 @@ DOMAIN-SUFFIX,ad.gmw.cn
 DOMAIN-SUFFIX,channel-analysis-js.gmw.cn
 DOMAIN-SUFFIX,gndmnrh.cn
 DOMAIN-SUFFIX,go2yd.com
+DOMAIN-SUFFIX,gobepe.qpon
+DOMAIN-SUFFIX,gobope.qpon
 DOMAIN-SUFFIX,godloveme.cn
 DOMAIN-SUFFIX,goforandroid.com
 DOMAIN-SUFFIX,gojunkclean.cn
@@ -2498,7 +2525,6 @@ DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,adsense.google.cn
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
-DOMAIN-SUFFIX,s0-2mdn-net.l.google.com
 DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
 DOMAIN-SUFFIX,www-google-analytics.l.google.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
@@ -2617,6 +2643,7 @@ DOMAIN-SUFFIX,img1.hblds.com
 DOMAIN-SUFFIX,hbqabbg.cn
 DOMAIN-SUFFIX,hcbmq.cn
 DOMAIN-SUFFIX,vpass-jp.hcirzf.cn
+DOMAIN-SUFFIX,hechaocheng.cn
 DOMAIN-SUFFIX,heheshield.com
 DOMAIN-SUFFIX,heima8.com
 DOMAIN-SUFFIX,fingerprint-upload.hellobike.com
@@ -2678,7 +2705,6 @@ DOMAIN-SUFFIX,report.uc.heytapmobi.com
 DOMAIN-SUFFIX,stat.browser.heytapmobi.com
 DOMAIN-SUFFIX,ums-telemetry-cn.heytapmobi.com
 DOMAIN-SUFFIX,ums-telemetry-eu-par.heytapmobi.com
-DOMAIN-SUFFIX,ums-telemetry-india.heytapmobi.com
 DOMAIN-SUFFIX,ums-telemetry-sgp.heytapmobi.com
 DOMAIN-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com
 DOMAIN-SUFFIX,hffxc.com
@@ -2767,6 +2793,7 @@ DOMAIN-SUFFIX,online.hnoexpo.com
 DOMAIN-SUFFIX,hnol.net
 DOMAIN-SUFFIX,protection.hnpolice.com
 DOMAIN-SUFFIX,hnxxt.net
+DOMAIN-SUFFIX,ho521.cn
 DOMAIN-SUFFIX,smetrics.hollisterco.cn
 DOMAIN-SUFFIX,hologramid.cn
 DOMAIN-SUFFIX,ads.honor.com
@@ -2820,6 +2847,7 @@ DOMAIN-SUFFIX,hsych.com
 DOMAIN-SUFFIX,ht55.cn
 DOMAIN-SUFFIX,htkaoyan.com
 DOMAIN-SUFFIX,httpdns.pro
+DOMAIN-SUFFIX,huabian.com
 DOMAIN-SUFFIX,ad.huajiao.com
 DOMAIN-SUFFIX,api-analytics-cn.huami.com
 DOMAIN-SUFFIX,api-analytics-in.huami.com
@@ -2971,7 +2999,6 @@ DOMAIN-SUFFIX,seeder.igetget.com
 DOMAIN-SUFFIX,ihclam.cn
 DOMAIN-SUFFIX,fpbone.ihowguide.com
 DOMAIN-SUFFIX,appadapi.ihuman.com
-DOMAIN-SUFFIX,ad.iii.co.uk
 DOMAIN-SUFFIX,iimedia.cn
 DOMAIN-SUFFIX,www.iiyout.cn
 DOMAIN-SUFFIX,ijinshan.com
@@ -2982,6 +3009,7 @@ DOMAIN-SUFFIX,static.ilclock.com
 DOMAIN-SUFFIX,ili100.cn
 DOMAIN-SUFFIX,ilkwork.com
 DOMAIN-SUFFIX,smetrics.illumina.com.cn
+DOMAIN-SUFFIX,ad.iloveinterracial.com
 DOMAIN-SUFFIX,metrics.ilovematlab.cn
 DOMAIN-SUFFIX,smetrics.ilovematlab.cn
 DOMAIN-SUFFIX,imageter.com
@@ -3291,7 +3319,6 @@ DOMAIN-SUFFIX,kajicam.com
 DOMAIN-SUFFIX,short-video.kakamobi.cn
 DOMAIN-SUFFIX,smart-789.kakamobi.cn
 DOMAIN-SUFFIX,js.kalvinbg.cn
-DOMAIN-SUFFIX,download.kaobeitu.com
 DOMAIN-SUFFIX,cps.kaola.com
 DOMAIN-SUFFIX,data.kaoyany.top
 DOMAIN-SUFFIX,smetrics.karcher.cn
@@ -3571,7 +3598,6 @@ DOMAIN-SUFFIX,lady177.com
 DOMAIN-SUFFIX,lwlog.laiwang.com
 DOMAIN-SUFFIX,lakalal.com
 DOMAIN-SUFFIX,lop.lamimi.cn
-DOMAIN-SUFFIX,data-a01a8a1ba4.lampertheimer-zeitung.de
 DOMAIN-SUFFIX,brc.languageclass.cc
 DOMAIN-SUFFIX,ntb.lanjie100.com
 DOMAIN-SUFFIX,zq.lansedir.com
@@ -3881,7 +3907,6 @@ DOMAIN-SUFFIX,ott-v0-al.data.mgtv.com
 DOMAIN-SUFFIX,ott.v1.data.mgtv.com
 DOMAIN-SUFFIX,pcweb.v1.mgtv.com
 DOMAIN-SUFFIX,recom.api.mgtv.com
-DOMAIN-SUFFIX,rprain.bz.mgtv.com
 DOMAIN-SUFFIX,vod-box.bz.mgtv.com
 DOMAIN-SUFFIX,mgzjin.cn
 DOMAIN-SUFFIX,resolver.gslb.mi-idc.com
@@ -3941,6 +3966,7 @@ DOMAIN-SUFFIX,zzz-log-upload.mihoyo.com
 DOMAIN-SUFFIX,sensors.mihuashi.com
 DOMAIN-SUFFIX,trk.miltonroy.com.cn
 DOMAIN-SUFFIX,ad.mingruidata.com
+DOMAIN-SUFFIX,mini-ledger.top
 DOMAIN-SUFFIX,src1.minibai.com
 DOMAIN-SUFFIX,wm.mipcdn.com
 DOMAIN-SUFFIX,gg.miued.com
@@ -4118,10 +4144,8 @@ DOMAIN-SUFFIX,projecta-common-1258344701.file.myqcloud.com
 DOMAIN-SUFFIX,redpaper-10006092.cos.myqcloud.com
 DOMAIN-SUFFIX,sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com
 DOMAIN-SUFFIX,datarangers-event.myrightone.com
-DOMAIN-SUFFIX,drmartensclub.myshoplaza.com
-DOMAIN-SUFFIX,drmartensfans.myshoplaza.com
-DOMAIN-SUFFIX,maoamao.myshoplaza.com
-DOMAIN-SUFFIX,nsabiu.myshoplaza.com
+DOMAIN-SUFFIX,zeemlight.myshoplaza.com
+DOMAIN-SUFFIX,zhouphru.myshoplaza.com
 DOMAIN-SUFFIX,analytics.myshoptago.com
 DOMAIN-SUFFIX,stats.mysteel.com
 DOMAIN-SUFFIX,snbmcbaitxci.mysyfz.cn
@@ -4174,8 +4198,8 @@ DOMAIN-SUFFIX,yt-adv.bn.netease.com
 DOMAIN-SUFFIX,abt-online.netease.im
 DOMAIN-SUFFIX,ad.netgoo.com
 DOMAIN-SUFFIX,netor.net
+DOMAIN-SUFFIX,adx-tracking.netpop.app
 DOMAIN-SUFFIX,networkbench.com
-DOMAIN-SUFFIX,bovid.neural.love
 DOMAIN-SUFFIX,newbeiyang.net
 DOMAIN-SUFFIX,t.home.news.cn
 DOMAIN-SUFFIX,webd.home.news.cn
@@ -4208,6 +4232,7 @@ DOMAIN-SUFFIX,a.nowscore.com
 DOMAIN-SUFFIX,z.nowscore.com
 DOMAIN-SUFFIX,npftmqv.cn
 DOMAIN-SUFFIX,util.nphoto.net
+DOMAIN-SUFFIX,nqintelligence.com
 DOMAIN-SUFFIX,nryqr.cn
 DOMAIN-SUFFIX,c.ns8d.com
 DOMAIN-SUFFIX,marketing.nsfocus.com
@@ -4243,6 +4268,7 @@ DOMAIN-SUFFIX,oguci.cn
 DOMAIN-SUFFIX,oicp.net
 DOMAIN-SUFFIX,apps5.oingo.com
 DOMAIN-SUFFIX,okhan.net
+DOMAIN-SUFFIX,ig.okxwan.cn
 DOMAIN-SUFFIX,olssna.cn
 DOMAIN-SUFFIX,oneapm.com
 DOMAIN-SUFFIX,onelnk.com
@@ -4303,7 +4329,6 @@ DOMAIN-SUFFIX,cdn-gcs.outfit7.com
 DOMAIN-SUFFIX,hb-af-us-central1.outfit7.com
 DOMAIN-SUFFIX,outin.cn
 DOMAIN-SUFFIX,ouyaoxiazai.com
-DOMAIN-SUFFIX,owd-whatsapp.com.cn
 DOMAIN-SUFFIX,ozogame.com
 DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,p555.cc
@@ -4341,7 +4366,6 @@ DOMAIN-SUFFIX,pcupd.com
 DOMAIN-SUFFIX,static.pddpic.com
 DOMAIN-SUFFIX,video-dsp.pddpic.com
 DOMAIN-SUFFIX,download.pdf00.cn
-DOMAIN-SUFFIX,download.pdf00.com
 DOMAIN-SUFFIX,pdfexpert.cc
 DOMAIN-SUFFIX,pdfxd.com
 DOMAIN-SUFFIX,pdxubxc.cn
@@ -4354,6 +4378,7 @@ DOMAIN-SUFFIX,pedluxevo.com
 DOMAIN-SUFFIX,www.peiyou.com
 DOMAIN-SUFFIX,pengauto.cn
 DOMAIN-SUFFIX,adver.pengyou.com
+DOMAIN-SUFFIX,banners.penthouse.com
 DOMAIN-SUFFIX,penxiangge.com
 DOMAIN-SUFFIX,counter.people.cn
 DOMAIN-SUFFIX,ads.people.com.cn
@@ -4368,7 +4393,6 @@ DOMAIN-SUFFIX,pfdth.cn
 DOMAIN-SUFFIX,pfqwbqs.cn
 DOMAIN-SUFFIX,pgzs.com
 DOMAIN-SUFFIX,smetrics.marketing.lighting.philips.com.cn
-DOMAIN-SUFFIX,blue.phl17.com
 DOMAIN-SUFFIX,phormchina.com
 DOMAIN-SUFFIX,f1.pig66.com
 DOMAIN-SUFFIX,www.pikacn.com
@@ -4397,7 +4421,6 @@ DOMAIN-SUFFIX,pic50.pingguolv.com
 DOMAIN-SUFFIX,api.pingstart.com
 DOMAIN-SUFFIX,ad-track.pinxiaobao.cn
 DOMAIN-SUFFIX,merged-ad-track.pinxiaobao.cn
-DOMAIN-SUFFIX,conf.piojm.tech
 DOMAIN-SUFFIX,bd1.pipaw.com
 DOMAIN-SUFFIX,stat.pixpin.cn
 DOMAIN-SUFFIX,stat2.pixpin.cn
@@ -4732,8 +4755,6 @@ DOMAIN-SUFFIX,rh.qq.com
 DOMAIN-SUFFIX,rlog.video.qq.com
 DOMAIN-SUFFIX,rmonitor.qq.com
 DOMAIN-SUFFIX,rmpad.imtt.qq.com
-DOMAIN-SUFFIX,rs1.qq.com
-DOMAIN-SUFFIX,rs2.qq.com
 DOMAIN-SUFFIX,s.syzs.qq.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,scdown.qq.com
@@ -4814,8 +4835,6 @@ DOMAIN-SUFFIX,img2.qqwangming6.com
 DOMAIN-SUFFIX,dpvc1.qqyy.com
 DOMAIN-SUFFIX,f.qstatic.com
 DOMAIN-SUFFIX,qstzar.cn
-DOMAIN-SUFFIX,qt-waz-whatsapp.com.cn
-DOMAIN-SUFFIX,qt-wsz-whatsapp.com.cn
 DOMAIN-SUFFIX,ad-cdn.qtfm.cn
 DOMAIN-SUFFIX,adlaunch.qtfm.cn
 DOMAIN-SUFFIX,api-zhibo.qtfm.cn
@@ -4856,7 +4875,6 @@ DOMAIN-SUFFIX,ad.zijieapi.com.queniukw.com
 DOMAIN-SUFFIX,is.snssdk.com.queniukw.com
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com.queniurc.com
 DOMAIN-SUFFIX,p3-ad-sign.byteimg.com.queniusy.com
-DOMAIN-SUFFIX,ads3-normal.zijieapi.com.queniusz.com
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com.queniuyk.com
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com.queniuyk.com
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com.queniuyk.com
@@ -4956,9 +4974,7 @@ DOMAIN-SUFFIX,rong360.com
 DOMAIN-SUFFIX,logcollection.ronghub.com
 DOMAIN-SUFFIX,nav.cn.ronghub.com
 DOMAIN-SUFFIX,stats.cn.ronghub.com
-DOMAIN-SUFFIX,rpkcqtf.cn
 DOMAIN-SUFFIX,rsoz.cn
-DOMAIN-SUFFIX,rtbasia.com
 DOMAIN-SUFFIX,rtbwave.com
 DOMAIN-SUFFIX,ruancq.xyz
 DOMAIN-SUFFIX,ds.ruanwengfa.com
@@ -4974,7 +4990,6 @@ DOMAIN-SUFFIX,rvvajp.cn
 DOMAIN-SUFFIX,rvyjbwr.cn
 DOMAIN-SUFFIX,rvzlobj.cn
 DOMAIN-SUFFIX,rxys.cn
-DOMAIN-SUFFIX,ry-odp-whatsapp.com.cn
 DOMAIN-SUFFIX,rywnvzd.cn
 DOMAIN-SUFFIX,rz261.cn
 DOMAIN-SUFFIX,rznscya.cn
@@ -5032,13 +5047,13 @@ DOMAIN-SUFFIX,ad-logs.seeyouyima.com
 DOMAIN-SUFFIX,trace.seeyouyima.com
 DOMAIN-SUFFIX,x.seeyouyima.com
 DOMAIN-SUFFIX,sellfox.com
-DOMAIN-SUFFIX,senbiaojita.com
 DOMAIN-SUFFIX,sensorsdata.cn
 DOMAIN-SUFFIX,seordl.cn
 DOMAIN-SUFFIX,sepyra.com
+DOMAIN-SUFFIX,seurese.click
 DOMAIN-SUFFIX,sfbixfd.cn
 DOMAIN-SUFFIX,logstat.t.sfht.com
-DOMAIN-SUFFIX,stats.sg-light-edge.com
+DOMAIN-SUFFIX,stats.sg-b-light-edge.com
 DOMAIN-SUFFIX,track.sgdmobile.com
 DOMAIN-SUFFIX,sglyd.cn
 DOMAIN-SUFFIX,eywvko.shaddy.jp
@@ -5215,7 +5230,6 @@ DOMAIN-SUFFIX,sensors.snappea.com
 DOMAIN-SUFFIX,intranet.snaptube.app
 DOMAIN-SUFFIX,misc.api.snaptube.app
 DOMAIN-SUFFIX,sensors.snaptube.app
-DOMAIN-SUFFIX,stats.snipaste.com
 DOMAIN-SUFFIX,api.snmi.cn
 DOMAIN-SUFFIX,s.snmi.cn
 DOMAIN-SUFFIX,r1.snnd.co
@@ -5337,7 +5351,6 @@ DOMAIN-SUFFIX,643108e7617ef.cdn.sohucs.com
 DOMAIN-SUFFIX,e8aeb8bbdbbd7.cdn.sohucs.com
 DOMAIN-SUFFIX,smetrics.solidigmtech.com.cn
 DOMAIN-SUFFIX,smetrics.solidigmtechnology.cn
-DOMAIN-SUFFIX,rtb-uswest-ak.solomath.com
 DOMAIN-SUFFIX,gg.sonhoo.com
 DOMAIN-SUFFIX,sc.sonystyle.com.cn
 DOMAIN-SUFFIX,bd1.sosg.net
@@ -5366,7 +5379,6 @@ DOMAIN-SUFFIX,show.ssports.com
 DOMAIN-SUFFIX,3.ssqzj.com
 DOMAIN-SUFFIX,ad-union.ssread.cn
 DOMAIN-SUFFIX,ssur.cc
-DOMAIN-SUFFIX,syndication.standard.co.uk
 DOMAIN-SUFFIX,stargame.com
 DOMAIN-SUFFIX,stat-nba.com
 DOMAIN-SUFFIX,staticfile.net
@@ -5404,7 +5416,6 @@ DOMAIN-SUFFIX,superads.cn
 DOMAIN-SUFFIX,lcs.dev.surepush.cn
 DOMAIN-SUFFIX,test.surepush.cn
 DOMAIN-SUFFIX,bdunion1.suxiazai.com
-DOMAIN-SUFFIX,download.suxiazai.com
 DOMAIN-SUFFIX,svdpgmt.cn
 DOMAIN-SUFFIX,analytics.sve.cc
 DOMAIN-SUFFIX,api.sve.cc
@@ -5594,13 +5605,13 @@ DOMAIN-SUFFIX,gwrtdp-tn690bfadt.tclclouds.com
 DOMAIN-SUFFIX,tcl-icloudcdn.tclclouds.com
 DOMAIN-SUFFIX,tlauncher-api.tclclouds.com
 DOMAIN-SUFFIX,webservice.tclmobile.cn
+DOMAIN-SUFFIX,tcyh.net
 DOMAIN-SUFFIX,sg.tdatamaster.com
 DOMAIN-SUFFIX,site.tdk.cn
 DOMAIN-SUFFIX,tracking.tdk.cn
 DOMAIN-SUFFIX,metrics.teamviewer.cn
 DOMAIN-SUFFIX,log.tec73.com
 DOMAIN-SUFFIX,1.tecbbs.com
-DOMAIN-SUFFIX,ukmnlp.techbang.com
 DOMAIN-SUFFIX,tongji.techweb.com.cn
 DOMAIN-SUFFIX,tecunonline.com
 DOMAIN-SUFFIX,teddymobile.cn
@@ -5675,7 +5686,6 @@ DOMAIN-SUFFIX,yptqys.tianqistatic.com
 DOMAIN-SUFFIX,fz.tiansys.cn
 DOMAIN-SUFFIX,adx-bid.tianzhuobj.com
 DOMAIN-SUFFIX,smetrics.tiffany.cn
-DOMAIN-SUFFIX,rtlog31-normal-useast2a.tiktokv.com
 DOMAIN-SUFFIX,tingyun.com
 DOMAIN-SUFFIX,img2.titan007.com
 DOMAIN-SUFFIX,a.tiyuxiu.com
@@ -5689,7 +5699,6 @@ DOMAIN-SUFFIX,ads-vp5-xhscdn.tliveapp.com
 DOMAIN-SUFFIX,livetech.shopee.co.th.tlivecdn.com
 DOMAIN-SUFFIX,jx.tmall.com
 DOMAIN-SUFFIX,vpass-jp.tmctk.cn
-DOMAIN-SUFFIX,cdn.tmooc.cn
 DOMAIN-SUFFIX,site-p2p-ads.tngdigital.com.my
 DOMAIN-SUFFIX,tnjvz.cn
 DOMAIN-SUFFIX,pxx.tnklrs.cn
@@ -5797,6 +5806,7 @@ DOMAIN-SUFFIX,livetech.shopee.vn.txlivecdn.com
 DOMAIN-SUFFIX,m.txtxr.com
 DOMAIN-SUFFIX,u.txuesoft.cn
 DOMAIN-SUFFIX,tydouke.com
+DOMAIN-SUFFIX,cy-api.tysondata.com
 DOMAIN-SUFFIX,www.tz-dsp.com
 DOMAIN-SUFFIX,tzlit.cn
 DOMAIN-SUFFIX,tzyzlow.cn
@@ -5950,7 +5960,6 @@ DOMAIN-SUFFIX,vicp.cc
 DOMAIN-SUFFIX,hw-p2p-pull.video-voip.com
 DOMAIN-SUFFIX,tx-p2p-pull.video-voip.com
 DOMAIN-SUFFIX,ws-p2p-pull.video-voip.com
-DOMAIN-SUFFIX,rtas.videocc.net
 DOMAIN-SUFFIX,cytroncdn.videojj.com
 DOMAIN-SUFFIX,holmeshelp.vidmate.mobi
 DOMAIN-SUFFIX,jdata.vidmatefilm.org
@@ -6243,6 +6252,7 @@ DOMAIN-SUFFIX,valatm.cp12.wasu.tv
 DOMAIN-SUFFIX,yk-ssp-ad.cp12.wasu.tv
 DOMAIN-SUFFIX,xjkugh.waterdropfilter.com
 DOMAIN-SUFFIX,ggw.watertu.com
+DOMAIN-SUFFIX,adz.wattpad.com
 DOMAIN-SUFFIX,bd.watu.cn
 DOMAIN-SUFFIX,api.anti.wauee.com
 DOMAIN-SUFFIX,wcofh.cn
@@ -6324,9 +6334,9 @@ DOMAIN-SUFFIX,ad.winrar.com.cn
 DOMAIN-SUFFIX,winvvv.com
 DOMAIN-SUFFIX,wiyun.com
 DOMAIN-SUFFIX,wjxcdn.com
-DOMAIN-SUFFIX,h1.wk2.com
 DOMAIN-SUFFIX,wkanx.com
 DOMAIN-SUFFIX,lm1.wkpcw.cn
+DOMAIN-SUFFIX,axp.wkrg.com
 DOMAIN-SUFFIX,p.wktfkj.com
 DOMAIN-SUFFIX,wkzw.me
 DOMAIN-SUFFIX,opensdk.wlanbanlv.com
@@ -6382,8 +6392,6 @@ DOMAIN-SUFFIX,app.wpsmail.net
 DOMAIN-SUFFIX,collect.wpsmail.net
 DOMAIN-SUFFIX,wpwpquse.cn
 DOMAIN-SUFFIX,g.wq96f9.com
-DOMAIN-SUFFIX,wr-wgd-whatsapp.com.cn
-DOMAIN-SUFFIX,wr-wun-whatsapp.com.cn
 DOMAIN-SUFFIX,wrating.com
 DOMAIN-SUFFIX,wsacjdg.cn
 DOMAIN-SUFFIX,ad.12306.cn.wscdns.com
@@ -6426,7 +6434,6 @@ DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,sensors.h5.xed.plus
 DOMAIN-SUFFIX,sensors.xeknow.com
 DOMAIN-SUFFIX,xerhibx.cn
-DOMAIN-SUFFIX,bbb.xfrwu.cn
 DOMAIN-SUFFIX,xftsjv.top
 DOMAIN-SUFFIX,dt.xfyun.cn
 DOMAIN-SUFFIX,analytics.xgimi.com
@@ -6677,7 +6684,6 @@ DOMAIN-SUFFIX,upgrade.xl9.xunlei.com
 DOMAIN-SUFFIX,watch.advertising.speed.cdn.vip.xunlei.com
 DOMAIN-SUFFIX,xlgamebox-youxi.xunlei.com
 DOMAIN-SUFFIX,youxi.xunlei.com
-DOMAIN-SUFFIX,bbb.xurwd.cn
 DOMAIN-SUFFIX,xwezch.cn
 DOMAIN-SUFFIX,xwmr.com.cn
 DOMAIN-SUFFIX,cc.xwscg.com
@@ -6698,9 +6704,7 @@ DOMAIN-SUFFIX,stat-z.xywy.com
 DOMAIN-SUFFIX,cp.xz6.com
 DOMAIN-SUFFIX,bmjs.xzw.com
 DOMAIN-SUFFIX,y4n.cn
-DOMAIN-SUFFIX,yac-whatsapp.com.cn
 DOMAIN-SUFFIX,yahoo.com.cn
-DOMAIN-SUFFIX,yaj-whatsapp.com.cn
 DOMAIN-SUFFIX,ta.yangkeduo.com
 DOMAIN-SUFFIX,yangot.com
 DOMAIN-SUFFIX,img.yangshengtang123.com
@@ -6964,6 +6968,7 @@ DOMAIN-SUFFIX,zantainet.com
 DOMAIN-SUFFIX,f1.zaojv.com
 DOMAIN-SUFFIX,zapads.zapak.com
 DOMAIN-SUFFIX,zazhipu.com
+DOMAIN-SUFFIX,p3.zbjimg.com
 DOMAIN-SUFFIX,xue.zbyw.cn
 DOMAIN-SUFFIX,s2.zdmimg.com
 DOMAIN-SUFFIX,s3.zdmimg.com
