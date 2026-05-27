@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260527022942
-! Last modified: 2026/05/27 02:29:42
-! Blocked Filters: 101920
+! Version: 20260527120639
+! Last modified: 2026/05/27 12:06:39
+! Blocked Filters: 101924
 !
 ###AC_ad
 ###AD_160
@@ -30913,6 +30913,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||matlab.mathworks.com^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matomo.moeci.com/matomo.js$domain=moeci.com
+@@||matprat.no^$stealth=dpi
 @@||matrix.redditspace.com^$stealth=3p-auth
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||matzoo.pl^$generichide
@@ -31506,7 +31507,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||nu.nl^$generichide
 @@||nu6i-bg-net.com^$generichide
 @@||nuevos-mu.ucoz.com^$generichide
-@@||nuggad.net^$domain=sportdeutschland.tv
 @@||nulledteam.com/js/*/adsservice.js
 @@||nulledteam.com^$generichide
 @@||nullforums.net/js/*/uvb-tag-ad.js
@@ -33213,7 +33213,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||reuters.com^$generichide
 @@||reutersmedia.net/resources^
 @@||rev.evrensel.net/www/delivery/*.php
-@@||revdownload.com/*.php$generichide
 @@||rexdlfile.com/index.php?id=$stealth=referrer
 @@||rg-tiles.b-cdn.net^$stealth=referrer
 @@||rhymes-with.com^$generichide
@@ -38290,6 +38289,7 @@ arukereso.hu##.promotion-container
 arydigital.tv###zzright
 arydigital.tv,barakbulletin.com##.bsac
 arynews.tv##.tdi_103
+as.com##.a_rel
 as.com##.ad-e2
 as.com##.slider-producto
 as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
@@ -70974,7 +70974,6 @@ reuters.com#?#div[class^="regular-article-layout__inner_"]:has(> div[data-testid
 reuters.com#?#div[class^="regular-article-layout__refinitiv_workspace"]:has(> div[class] > a img[class^="workspace-article-banner"])
 reuters.com#?#h4:contains(Advertisement)
 reuters.com#@#[class^="primary-video__container_"]
-revdownload.com##.text-ads > a
 reverse-dictionary.virock.org#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyArr')
 reverso.net###bottom-mega-rca-box
 reverso.net###locdbanner
@@ -87691,6 +87690,7 @@ zzzyk.com###Tinfo
 ||bookwalker.jp/custom/unitag/
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
 ||bookwalker.jp/v/louis/*/tracks.js
+||boomplaymusic.com/BoomPlayer/ad/
 ||bootdisk.com/art/war.png
 ||bootyheroes.com//static/assets/img/banners/
 ||borneobulletin.com.bn/wp-content/banners/
@@ -89687,6 +89687,7 @@ zzzyk.com###Tinfo
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download-adblockgenius.com^$popup
+||download-performance.com^$popup
 ||download.cnet.com/revamp.js
 ||download.megaup.net/*.jpg$~third-party,image,redirect=1x1-transparent.gif
 ||download.megaup.net/download
@@ -90419,6 +90420,7 @@ zzzyk.com###Tinfo
 ||fetishshrine.com/jsb/js_script.js
 ||fetishshrine.com/plugin.js
 ||fetlife.com/ads/
+||fewcents.co^$third-party
 ||feyorra.top/next.js
 ||ffdm*.cc/dd.js
 ||ffdm2.cc/ht_cpc.js
@@ -94364,6 +94366,8 @@ zzzyk.com###Tinfo
 ||mddcloud.*/oweApi/ad/
 ||mdsglvod-a.akamaihd.net/vod/2.0/progressive/*/x.mp4$redirect=noopmp4-1s,domain=ttv.pl
 ||mdstrm.com/js/lib/streammetrics.js
+||me-qr.com/metrics/
+||me-qr.com/statistic/collect/
 ||me360.com/swt/swt.js
 ||me4track.com^$popup
 ||me680.com/js/*.js
